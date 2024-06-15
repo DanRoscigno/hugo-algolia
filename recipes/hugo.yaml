@@ -1,7 +1,7 @@
 baseURL: https://danroscigno.github.io/hugo-algolia/
 languageCode: en-us
 title: Recipes
-theme: github.com/nodejh/hugo-theme-mini
+theme: github.com/theNewDynamic/gohugo-theme-ananke
 
 # Default content language, support en (English) / zh (Chinese) / nl (Dutch) / fr (French) / es (Spanish) / da (Danish), default 'en'
 defaultContentLanguage: en
