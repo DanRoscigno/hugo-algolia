@@ -2,4 +2,6 @@ module github.com/DanRoscigno/hugo-algolia
 
 go 1.21.5
 
-require github.com/nodejh/hugo-theme-mini v0.0.0-20240322021354-34417888405c // indirect
+require (
+	github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20240503174335-33fbda0e9d3e // indirect
+)
