@@ -4,6 +4,12 @@ date = 2024-06-15T17:11:26-04:00
 tags = ["Summer", "Grill"]
 draft = false
 +++
++++
+title = 'Brisket'
+date = 2024-06-15T17:11:26-04:00
+tags = ["Summer", "Grill"]
+draft = false
++++
 # TEXAS BRISKET - ON AN OFFSET SMOKER
 
 Author is Meat Church [19 MAY, 2021](https://www.meatchurch.com/blogs/recipes/brisket)
