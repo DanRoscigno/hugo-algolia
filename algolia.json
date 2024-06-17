@@ -7,12 +7,6 @@
   ],
   "sitemap_alternate_links": true,
   "selectors": {
-    "lvl0": {
-      "selector": "//a[@class='menu__link menu__link--active'][1]/text()[1]",
-      "type": "xpath",
-      "global": true,
-      "default_value": "Recipes"
-    },
     "lvl1": "header h1",
     "text": "article"
   },
