@@ -8,7 +8,7 @@
   "sitemap_alternate_links": true,
   "selectors": {
     "lvl0": "header h1",
-    "text": "article"
+    "content": "article"
   },
   "aggregateContent": true,
   "strip_chars": " .,;:#",
