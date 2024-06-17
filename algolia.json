@@ -1,7 +1,7 @@
 {
   "index_name": "hugo_recipes",
   "sitemap_urls": [
-    "https://danroscigno.github.io/hugo-recipes/sitemap.xml"
+    "https://danroscigno.github.io/hugo-algolia/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "scrape_start_urls": false,
