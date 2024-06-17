@@ -7,7 +7,7 @@
   ],
   "sitemap_alternate_links": true,
   "selectors": {
-    "lvl1": "header h1",
+    "lvl0": "header h1",
     "text": "article"
   },
   "aggregateContent": true,
