@@ -4,34 +4,30 @@
     "https://danroscigno.github.io/hugo-algolia/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
-  "scrape_start_urls": false,
-  "start_urls": [
-    {
-      "url": "https://danroscigno.github.io/hugo-algolia/tags/",
-      "selectors_key": "tags",
-      "page_rank": 2
-    },
-    {
-      "url": "https://danroscigno.github.io/hugo-algolia/",
-      "page_rank": 1
-    }
-  ],
   "selectors": {
-    "default": {
-      "lvl0": ".content-page h1",
-      "lvl1": ".content h2",
-      "lvl2": ".content h3",
-      "lvl3": ".content h4",
-      "lvl4": ".content h5",
-      "text": ".article"
+    "lvl0": {
+      "selector": "//a[@class='menu__link menu__link--active'][1]/text()[1]",
+      "type": "xpath",
+      "global": true,
+      "default_value": "Recipes"
     },
-    "tags": {
-      "lvl0": { "selector": "h1", "default_value": "Tags" },
-      "lvl1": ".tag-title h2"
-    },
-    "series": {
-      "lvl0": { "selector": "h1", "default_value": "Series" },
-      "lvl1": ".series-title h2"
-    }
-  }
+    "lvl1": "header h1",
+    "text": "article"
+  },
+  "aggregateContent": true,
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": [
+    ],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
+  "nb_hits": 46250
 }
